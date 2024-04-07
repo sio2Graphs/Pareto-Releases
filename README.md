@@ -9,11 +9,11 @@ easy, effective, aesthetic
 ###### Published 3/2024  
 If your visual displays a blank screen, the landing page, is disrupted in some way or your formatting selections are not applying properly, this has to do with the publishing process. Apologies for any inconvenience.  I recently upgraded to version 8.0.0.0, which required a large portion of the supporting and direct code to be either changed or updated.  It is a major change, and some of the formatting will have to be re-applied.  For example, label rotation and stacking because these two formatting options were condensed.  
 
-To correct any issues, please make sure you have the latest version of both the PBI Desktop and service for Pareto 8.0.0.0.  You have to re-download “Pareto for sio2Graphs” and confirm the version by right clicking the graph icon and looking at “about”, you might also have to click off of “Pareto” onto a bar chart and then click back onto “Pareto”.  This should solve the problem.  There may be some delay/disruption in the roll out to the PBI service.  I don’t control the actual publishing, so it is hard to pinpoint.  You will need to re-publish and fix any changed formatting properties.  
+To correct any issues, please make sure you have the latest version of both the PBI Desktop and service for Pareto 8.0.0.0.  You have to re-download “Pareto for sio2Graphs” and confirm the version by right clicking the graph icon and looking at “about”. You might also have to click off of “Pareto” onto a bar chart and then click back onto “Pareto”.  This should solve the problem.  There may be some delay in the roll out to the PBI service.  I don’t control the actual publishing, so it is hard to pinpoint.  You will need to re-publish and fix any changed formatting options.  
 
 ###### Updates
 
-When moving between different label display options, such as stacked and rotate, you might need to flop "Fit to Page" in "Display" in order to see the whole label or hide the scrollbar. 
+When moving between different label display options, such as stacked and rotate, you might need to flip "Fit to Page" in "Display" in order to see the whole label or hide the scrollbar. 
 For hundreds of categories, set the margins to 0, turn values, labels and scrolling off.  Specifically, inner bar padding must be set to 0.
 Scroll to accommodate the dataset, keeping in mind filtering to highlight the 20% Driving the 80% might be your best option.  You might need to turn "Margins" and "Padding" to 0 in "Display".
 To add margins on the outside of the visual, go to Formatting pane, General Tab, Properties, Padding
