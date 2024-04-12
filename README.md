@@ -20,6 +20,8 @@ Bug fix only.
 Corrected for the passing of null or blank into a category.
 
 ## v8.0.0.0 Certified
+published 3/6/2024 17th offer  
+Submitted with standard notes and no errors
 ###### Published 3/2024  
 If your visual displays a blank screen, not the landing page with the sio2Graphs logo, please remove all nulls, blanks, and control characters from your data, pass only valid text categories to fix the issue.  A fix is being published now.
 
