@@ -20,8 +20,6 @@ Bug fix only.
 Corrected for the passing of null or blank into a category.
 
 ## v8.0.0.0 Certified
-published 3/6/2024 17th offer  
-Submitted with standard notes and no errors
 ###### Published 3/2024  
 If your visual displays a blank screen, not the landing page with the sio2Graphs logo, please remove all nulls, blanks, and control characters from your data, pass only valid text categories to fix the issue.  A fix is being published now.
 
@@ -35,8 +33,8 @@ When moving between different label display options, such as stacked and rotate,
 For hundreds of categories, set the margins to 0, turn values, labels and scrolling off.  Specifically, inner bar padding must be set to 0.
 Scroll to accommodate the dataset, keeping in mind filtering to highlight the 20% Driving the 80% might be your best option.  You might need to turn "Margins" and "Padding" to 0 in "Display".
 To add margins on the outside of the visual, go to Formatting pane, General Tab, Properties, Padding
-The standard behavior when clicking on a datapoint is to use CTRL + click to select multiple datapoints.  I have not implemented this, because I have seen some bugs during implementation, I am working on it.  The select will work and automatically select multiple.  You then just need to de-select it in order to take it out of the selection.
-
+The standard behavior when clicking on a datapoint is to use CTRL + click to select multiple datapoints.  I have not implemented this, because I have seen some bugs during implementation, I am working on it.  
+The select will work and automatically select multiple.  You then just need to de-select it in order to take it out of the selection.
 
 #### Multiple Major Changes  
 Flipped left and right axes so bar abutts data and labels are on the outside.  This is standard orientation for a chart.  
@@ -53,10 +51,33 @@ Improved display and architecture elements in order to make all of the above cha
 
 #### 0 Minor Changes
 All Changes were rolled into a major update  
-
 #### 0 Maintenance Improvements
 All Changes were rolled into a major update
-
 #### 0 Bug Fixes
 All Changes were rolled into a major update
+## pareto7.12.0.11-Certified
+###### published 11/2023
 
+#### Updates
+The only changes were to downgrade powerbi-visuals-utils-formattingutils and upgrade powerbi-visuals-api.
+
+#### 0 Major Changes
+#### 0 Minor Changes
+#### 0 Maintenance Improvements
+#### 1 Bug Fix
+downgraded powerbi-visuals-utils-formattingutils so locale would work.
+
+## v7.12.0.10 Certified
+###### published 10/2023
+
+#### 2 Minor Changes
+Added type and opacity to Business Pane, so users can use a solid color for the pane.  
+Formatted scrollbar, visually impactful for the user
+
+#### 1 Bug Fix
+Was not displaying properly in Firefox.  Mulitple changes from .style to .attr.  Use .attr for shape and size.
+
+#### Other Changes
+Added code to detect browser.  
+Right axis moving off page fixed.  
+Rotate was not showing if level 2 cats were taken off while stack was on and then hidden
