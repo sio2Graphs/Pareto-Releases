@@ -81,9 +81,13 @@ Right axis moving off page fixed.
 Rotate was not showing if level 2 cats were taken off while stack was on and then hidden
 
 ## pareto7.11.1.8-Certified
-published 05/2023 15th offer
+###### published 05/2023
  
-1 Bug Fix with 1 major change  
-Added back level 3 and 4 labels with correct label handling  
+#### 1 Major Change<br />
+Added label handling on drill down to level 4.<br /><br />
+0 Minor Changes<br />
+0 Maintenance Improvements
+#### 1 Bug Fix  
+Added back level 3 and 4 labels.  
 
   
