@@ -80,7 +80,7 @@ Added code to detect browser.
 Right axis moving off page fixed.  
 Rotate was not showing if level 2 cats were taken off while stack was on and then hidden
 
-## pareto7.11.1.8-Certified
+## v7.11.1.8 Certified
 ###### published 05/2023
  
 #### 1 Major Change<br />
@@ -90,4 +90,12 @@ Added label handling on drill down to level 4.<br /><br />
 #### 1 Bug Fix  
 Added back level 3 and 4 labels.  
 
-  
+## v7.10.2.7 Certified
+###### published 04/2023
+ 
+0 Major Changes<br />
+0 Minor Changes<br />
+0 Maintenance Improvements
+#### 2 Bug Fixes  
+When selecting a data point in another chart, pareto data points were not highlighting<br />
+2nd level labels were using 1st level labels for coloring
