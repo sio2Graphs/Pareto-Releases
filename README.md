@@ -9,13 +9,10 @@ easy, effective, aesthetic
 ###### Published 4/2024  
 Fixes the display of a blank screen, not the landing page with the sio2Graphs logo, on the passing of a blank or null to the Categories well.  
 ###### Updates
-This will not be a disruptive release, as there are almost no changes to the underlying code.
-#### 0 Major Changes  
-Bug fix only.
-#### 0 Minor Changes
-Bug fix only.
-#### 0 Maintenance Improvements
-Bug fix only.
+This will not be a disruptive release, as there are almost no changes to the underlying code.<br /><br />
+0 Major Changes<br />
+0 Minor Changes<br />
+0 Maintenance Improvements<br />
 #### 1 Bug Fix
 Corrected for the passing of null or blank into a category.
 
@@ -47,33 +44,34 @@ Locale was improved and fixed.  The value "none" now defaults to the local Power
 Added "Label Density" to arc.  This will thin percentages if needed or wanted.  
 Improved label text placement.  
 Added "Customize Labels" to shorten or edit long labels.  Can go from the start or end of the text.  
-Improved display and architecture elements in order to make all of the above changes.  
+Improved display and architecture elements in order to make all of the above changes.<br />
 
-#### 0 Minor Changes
-All Changes were rolled into a major update  
-#### 0 Maintenance Improvements
 All Changes were rolled into a major update
-#### 0 Bug Fixes
-All Changes were rolled into a major update
+
+0 Minor Changes<br />
+0 Maintenance Improvements<br />
+0 Bug Fixes<br />
+
 ## pareto7.12.0.11-Certified
 ###### published 11/2023
 
 #### Updates
-The only changes were to downgrade powerbi-visuals-utils-formattingutils and upgrade powerbi-visuals-api.
+The only changes were to downgrade powerbi-visuals-utils-formattingutils and upgrade powerbi-visuals-api.<br />
 
-#### 0 Major Changes
-#### 0 Minor Changes
-#### 0 Maintenance Improvements
+0 Major Changes<br />
+0 Minor Changes<br />
+0 Maintenance Improvements
 #### 1 Bug Fix
 downgraded powerbi-visuals-utils-formattingutils so locale would work.
 
 ## v7.12.0.10 Certified
 ###### published 10/2023
 
+0 Major Changes
 #### 2 Minor Changes
 Added type and opacity to Business Pane, so users can use a solid color for the pane.  
-Formatted scrollbar, visually impactful for the user
-
+Formatted scrollbar, visually impactful for the user<br /><br />
+0 Maintenance Improvements
 #### 1 Bug Fix
 Was not displaying properly in Firefox.  Mulitple changes from .style to .attr.  Use .attr for shape and size.
 
