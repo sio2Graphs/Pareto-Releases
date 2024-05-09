@@ -223,7 +223,7 @@ Submitted with standard notes and no errors
   * Fixed value when maximum value is at the top of the left axis
 
 ## v1.6.2
-###### Published 4/2020
+###### *Published 4/2020*
 
 **Version Changes**
 
@@ -236,12 +236,12 @@ Submitted with standard notes and no errors
   * Added gradient coloring
 
 ## v1.3.1
-###### Published 2/2020
-#### 3 *Major Changes*
+*Published 2/2020*
+#### 3 Major Changes
 * Data Values added on the bars with property control of placement and display (font & font stroke)
 * Labels corrected to not cut off
 * Tooltip messages were improved
 #### 0 Minor Improvements
 #### 0 Maintenance Adjustments
-#### 1 *Bug Fix*
+#### 1 Bug Fix
 * Syntax correction
