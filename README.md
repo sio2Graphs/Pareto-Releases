@@ -91,8 +91,7 @@ Added label handling on drill down to level 4.<br /><br />
 Added back level 3 and 4 labels.  
 
 ## v7.10.2.7 Certified
-###### published 04/2023
- 
+###### published 04/2023 
 0 Major Changes<br />
 0 Minor Changes<br />
 0 Maintenance Improvements
@@ -102,24 +101,19 @@ When selecting a data point in another chart, pareto data points were not highli
 
 ## v7.9.4.6 Certified
 ###### published 02/2023
-
 #### 3 Major Changes
-Add rectangular box behind bars, a bar and a statement to highlight the 80%, add driver highlights for the 20%<br/>  
+Add rectangular box behind bars, a bar and a statement to highlight the 80%, add driver highlights for the 20%<br />  
 Added scrolling<br/>  
 Added Repeating Gradients<br/>
-
 #### 3 Minor Improvements 
-Added Transparency property, used PBI included sort options for forced sort, improved tooltips to display text<br/>  
-Added Click, Mouse Hover In and Out to Values to compensate for almost no data context menu<br/>
-Bar Coloring default changed to “Each” from one solid color<br/>
-
-0 Maintenance Adjustments
-  
+Added Transparency property, used PBI included sort options for forced sort, improved tooltips to display text<br />  
+Added Click, Mouse Hover In and Out to Values to compensate for almost no data context menu<br />
+Bar Coloring default changed to “Each” from one solid color<br />
+#### 0 Maintenance Adjustments  
 #### 2 Bug Fixes  
-Make the spine thinner on Category X to show almost no data<br/>
+Make the spine thinner on Category X to show almost no data<br />
 Right Axis running off viewable page<br/>
 
-**4 Rejection Fixes**
 ###### Pareto by sio2Graphs 7.9.0.6
 * Had to add more testing instructions
 ###### Pareto by sio2Graphs 7.9.1.6
