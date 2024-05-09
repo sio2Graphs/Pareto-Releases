@@ -117,35 +117,24 @@ Make the spine thinner on Category X to show almost no data<br />
 Right Axis running off viewable page
 
 ## v4.6.3.5 Certified
-###### Published 12/04/2022 12th offer
+###### Published 12/2022
 
-Pareto 4.6.0.5 (12th offered 11/01/2022) 
-		1 Major Improvement
-			Submitted for Certification
-Pareto 4.6.1.5 (12th offered 11/16/2022) 
-		1 Adjustment
-			Had to fix JS errors on negative <rect> height
-Pareto 4.6.3.5 (12th offered 12/04/2022) 
-		2 Adjustments
-			Had to fix more JS errors on negative <rect> height
-			Had to fix 3 lint errors on method body exceeding 100 in length
+## v4.6.3.5
+#### 1 Major Change
+#### 1 Minor Improvement
+Added color to the label spine and ticks<br />
+#### 3 Maintenance Adjustments
+#### 2 Bug Fixes
+Added “No Data” Page
+Added “rendering” events
 
-## pareto3.6.0.5
-Published 10/15/2022 11th offer
-
-Pareto 3.6.0.5 (11th offered 10/15/2022) 
-		1 Minor Improvements
-			Added color to the label spine and ticks
-		2 Bug Fixes
-			Added “No Data” Page
-			Added “rendering” events
-
-## pareto3.5.0.3
-Published 10/01/2022
-
-Pareto 3.5.0.3 (10th offered 10/01/2022)
-		1 bug fix
-			Fixed tooltips (wrong data was displaying)   
+## v3.5.0.3
+###### Published 10/2022
+#### 0 Major Changes
+#### 0 Minor Improvements
+#### 0 Maintenance Adjustments
+#### 1 Bug Fix
+Fixed tooltips   
 
 ## Pareto by sio2Graphs 3.5.0.2
 Published 09/26/2022 9th offer
