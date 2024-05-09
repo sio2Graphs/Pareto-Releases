@@ -101,18 +101,17 @@ When selecting a data point in another chart, pareto data points were not highli
 2nd level labels were using 1st level labels for coloring
 
 ## v7.9.4.6 Certified
-Published originally on 01/18/2023 13th offer  
-Submitted with standard notes on 02/20/2023
+###### published 02/2023
 
-**3 Major Improvements**
-* Add rectangular box behind bars, a bar and a statement to highlight the 80%, add driver highlights for the 20%  
-* Added scrolling  
-* Added Repeating Gradients
+#### 3 Major Changes
+Add rectangular box behind bars, a bar and a statement to highlight the 80%, add driver highlights for the 20%<br/>  
+Added scrolling<br/>  
+Added Repeating Gradients<br/>
 
-**3 Minor Improvements**  
-* Added Transparency property, used PBI included sort options for forced sort, improved tooltips to display text  
-* Added Click, Mouse Hover In and Out to Values to compensate for almost no data context menu
-* Bar Coloring default changed to “Each” from one solid color
+#### 3 Minor Improvements 
+Added Transparency property, used PBI included sort options for forced sort, improved tooltips to display text<br/>  
+Added Click, Mouse Hover In and Out to Values to compensate for almost no data context menu<br/>
+Bar Coloring default changed to “Each” from one solid color<br/>
   
 **2 Bug Fixes**  
 * Make the spine thinner on Category X to show almost no data
@@ -130,10 +129,7 @@ Submitted with standard notes on 02/20/2023
 * Prevented the adding of bad data as it causes errors in the webservice on addition to Values
 * Rejected because adding bad data was causing errors in the webservice.
 
-** Notes submitted on this version
-In response to requested changes:
 
-I appreciate the requested change and noted the movement described.  In response, I implemented tooltipUtils, reviewed mappings and conditions.  After I made the changes, the movement doesn't always happen, however, there was a case where I noted this field movement.  I have looked for documentation on this issue, but can find none.  My best guess this is happening because I moved from an internal array sort enforcing "value desc" to using the provided PBI sort functionality.  I want to continue to implement PBI provided sort, because it is more stable in the long run, even if there might be some odd behavior on upgrade.  I will send out an email to my signed up users to be aware that this might happen.  I have also tested with other visuals and observed that fields move between buckets consistently.  I can find no error data or recommendations on what to do or how to stabilize fields that move between buckets.  If I need to make further adjustments, please provide documentation to correct/stabilize buckets, because I cannot find any documentation on this issue.  The current version takes advantage of provided sort functionality while the old version forced it through an array sort, however even reversing this did not affect this issue.  Specifically, I want to use provided PBI sort options, and when moving between other PBI visuals and the new version, the value bucket always stays consistent.
 
 ## v4.6.3.5 Certified
 Published 12/04/2022 12th offer
