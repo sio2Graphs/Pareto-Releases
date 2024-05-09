@@ -99,3 +99,211 @@ Added back level 3 and 4 labels.
 #### 2 Bug Fixes  
 When selecting a data point in another chart, pareto data points were not highlighting<br />
 2nd level labels were using 1st level labels for coloring
+
+## v7.9.4.6 Certified
+Published originally on 01/18/2023 13th offer  
+Submitted with standard notes on 02/20/2023
+
+**3 Major Improvements**
+* Add rectangular box behind bars, a bar and a statement to highlight the 80%, add driver highlights for the 20%  
+* Added scrolling  
+* Added Repeating Gradients
+
+**3 Minor Improvements**  
+* Added Transparency property, used PBI included sort options for forced sort, improved tooltips to display text  
+* Added Click, Mouse Hover In and Out to Values to compensate for almost no data context menu
+* Bar Coloring default changed to “Each” from one solid color
+  
+**2 Bug Fixes**  
+* Make the spine thinner on Category X to show almost no data
+* Right Axis running off viewable page
+
+**4 Rejection Fixes**
+###### Pareto by sio2Graphs 7.9.0.6
+* Had to add more testing instructions
+###### Pareto by sio2Graphs 7.9.1.6
+* Rejected because field in Values well was moving to Tooltips well when moving between previous version and this version.
+* When moving between visuals fields switching between "Values" and "Tooltips" wells
+###### Pareto by sio2Graphs 7.9.2.6
+* Rejected because there was no right click context menu. I had taken this out, mistakenly, because I thought this was associated to hover tooltips.  This was sloppy.
+###### Pareto by sio2Graphs 7.9.3.6
+* Prevented the adding of bad data as it causes errors in the webservice on addition to Values
+* Rejected because adding bad data was causing errors in the webservice.
+
+** Notes submitted on this version
+In response to requested changes:
+
+I appreciate the requested change and noted the movement described.  In response, I implemented tooltipUtils, reviewed mappings and conditions.  After I made the changes, the movement doesn't always happen, however, there was a case where I noted this field movement.  I have looked for documentation on this issue, but can find none.  My best guess this is happening because I moved from an internal array sort enforcing "value desc" to using the provided PBI sort functionality.  I want to continue to implement PBI provided sort, because it is more stable in the long run, even if there might be some odd behavior on upgrade.  I will send out an email to my signed up users to be aware that this might happen.  I have also tested with other visuals and observed that fields move between buckets consistently.  I can find no error data or recommendations on what to do or how to stabilize fields that move between buckets.  If I need to make further adjustments, please provide documentation to correct/stabilize buckets, because I cannot find any documentation on this issue.  The current version takes advantage of provided sort functionality while the old version forced it through an array sort, however even reversing this did not affect this issue.  Specifically, I want to use provided PBI sort options, and when moving between other PBI visuals and the new version, the value bucket always stays consistent.
+
+## v4.6.3.5 Certified
+Published 12/04/2022 12th offer
+
+Pareto 4.6.0.5 (12th offered 11/01/2022) 
+		1 Major Improvement
+			Submitted for Certification
+Pareto 4.6.1.5 (12th offered 11/16/2022) 
+		1 Adjustment
+			Had to fix JS errors on negative <rect> height
+Pareto 4.6.3.5 (12th offered 12/04/2022) 
+		2 Adjustments
+			Had to fix more JS errors on negative <rect> height
+			Had to fix 3 lint errors on method body exceeding 100 in length
+
+## pareto3.6.0.5
+Published 10/15/2022 11th offer
+
+Pareto 3.6.0.5 (11th offered 10/15/2022) 
+		1 Minor Improvements
+			Added color to the label spine and ticks
+		2 Bug Fixes
+			Added “No Data” Page
+			Added “rendering” events
+
+## pareto3.5.0.3
+Published 10/01/2022
+
+Pareto 3.5.0.3 (10th offered 10/01/2022)
+		1 bug fix
+			Fixed tooltips (wrong data was displaying)   
+
+## Pareto by sio2Graphs 3.5.0.2
+Published 09/26/2022 9th offer
+
+**Pareto by sio2Graphs 3.2.0.2 (9th offered 8/07/2022 – Never Published)**  
+	*2 Minor Improvements*  
+		* Added certification  
+		* Added Landing Page    
+	*2 bug fixes*  
+  		* Fixed tooltips not showing full count and property descriptions  
+  		* Remove horizontal scrollbar and addressed negative values
+			
+**Pareto by sio2Graphs 3.5.0.2 (9th offered 9/26/2022)**  
+	*4 Minor Improvements*
+		* Added numeric tooltips  
+		* Added Drill-through  
+		* Added label rotation  
+		* Updated Landing page  
+	*2 Improvements*  
+		* Opened up categories, no longer limited to 10.  Looks poor when there are too many categories.  
+		* Changed arc to curve at percent of category  			
+	*2 bug fixes*  
+		* Fixed conditional formatting  
+    *Addressed negative values*  
+	*In Addition*  
+		* Improved the display for path and line of the axes  
+		* Added and enhanced properties  
+		* Streamlined the backend
+
+  # pareto3.1.1.0
+Published 06/16/2022 8th offer
+
+Pareto 3.1.1.0 (8th offered 6/16/2022)
+		1 Minor Improvement
+			I added conditional formatting
+		In Addition
+			Added some more properties
+
+## Pareto by sio2Graphs 3.0.0.0
+Published 2/28/2022 7th offer
+
+**Pareto by sio2Graphs 1.11.9 (never published)**  
+	*1 Improvement*  
+	*Added Landing Page  
+	*0 bug fixes*  
+**Pareto by sio2Graphs 2.0.0 (major upgrade; never published)**  
+	*4 Improvements*  
+	*Changed the platform to allow communication to my website   
+	*Communication will validate a user who has purchased a microservice  
+	*A microservice will be the purchase of advanced functions on 1 visual  
+	*Added advanced functions:  
+			*Drilldown
+			*Axis manipulation
+			
+**Pareto by sio2Graphs 3.0.0.0**  
+published 2/28/2022 7th offer   
+	*2 Improvements*  
+		*Opened up categories, no longer limited to 10.  Looks poor when there are too many categories.  
+		*Changed arc to curve at percent of category  			
+	*1 bug fix*  
+		*Fixed pointer errors  
+	*In Addition*  
+		*Added 4th digit to version  
+		*Brought forward Drilldown and Axis manipulation from Pareto 2.0.0  
+		*Multiple Improvements and Enhancements in user customization  
+
+## Pareto by sio2Graphs 1.10.9
+Published 12/2/2020 6th offer
+
+**Features**  
+  * to be determined
+
+**Version Changes**  
+*2 bug fixes*  
+  * Deleted unused code
+  * Fixed default for Value Category Placement was 3 changed it to 4
+  
+*1 Improvement*  
+  * Added Context Menu
+
+## Pareto by sio2Graphs 1.9.7
+Published 11/20/2020 5th offer
+
+**Version Changes**  
+*3 bug fixes*  
+  * Corrected message syntax to users
+  * Deleted unused variables and code blocks
+  * In the case of “Outside Placement”, category text is no longer suppressed
+  
+*1 Improvement*  
+  * Added Text Sizing
+	  * Arc Text	
+	  * Category Text	
+	  * Value Text
+
+## v1.8.4
+###### published 6/24/2020 4th offer  
+Submitted with standard notes and no errors
+**Features**
+  * persist properties
+0 Major Changes
+#### 2 Minor Improvements
+* Added formatting
+	* Axis
+	* Category Text		
+	* Value Text
+	* Value Multiple and Decimal
+	* Arc Text
+	* Arc Line
+	* Currency Support
+  * Added Dark Background Support
+#### 2 Bug Fixes
+* Fixed category labels
+  * Fixed value when maximum value is at the top of the left axis
+
+# Pareto by sio2Graphs 1.6.2
+Published 4/20/2020 3rd offer
+
+**Version Changes**
+
+1. *bug fix*  
+  * Syntax correction.  style.less font setting was commented out.
+  
+3. *Improvements*
+  * Changed font stroke
+  * Changed font
+  * Added gradient coloring
+
+## Pareto by sio2Graphs 1.0.0 
+This offer submitted on 12/31/2019 did not pass certification and was never published.
+
+## Pareto by sio2Graphs 1.3.1 - 1st offer published on 02/27/2020
+
+**Version Changes**
+
+1. *bug fix*  
+  * Syntax correction
+  
+3. *Improvements*
+  * Data Values added on the bars with property control of placement and display (font & font stroke)
+  * Labels corrected to not cut off
+  * Tooltip messages were improved
