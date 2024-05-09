@@ -187,8 +187,8 @@ Fixed pointer errors
 *1 Improvement*  
   * Added Context Menu
 
-## Pareto by sio2Graphs 1.9.7
-###### Published 11/20/2020 5th offer
+## v1.9.7
+###### Published 11/2020
 
 **Version Changes**  
 *3 bug fixes*  
@@ -222,8 +222,8 @@ Submitted with standard notes and no errors
 * Fixed category labels
   * Fixed value when maximum value is at the top of the left axis
 
-# Pareto by sio2Graphs 1.6.2
-###### Published 4/20/2020 3rd offer
+## v1.6.2
+###### Published 4/2020
 
 **Version Changes**
 
@@ -235,7 +235,7 @@ Submitted with standard notes and no errors
   * Changed font
   * Added gradient coloring
 
-## Pareto by sio2Graphs 1.3.1
+## v1.3.1
 ###### Published 2/2020
 
 **Version Changes**
