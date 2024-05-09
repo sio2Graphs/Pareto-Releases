@@ -237,13 +237,11 @@ Submitted with standard notes and no errors
 
 ## v1.3.1
 ###### Published 2/2020
-
-**Version Changes**
-
-1. *bug fix*  
-  * Syntax correction
-  
-3. *Improvements*
-  * Data Values added on the bars with property control of placement and display (font & font stroke)
-  * Labels corrected to not cut off
-  * Tooltip messages were improved
+#### 3 *Major Changes*
+* Data Values added on the bars with property control of placement and display (font & font stroke)
+* Labels corrected to not cut off
+* Tooltip messages were improved
+#### 0 Minor Improvements
+#### 0 Maintenance Adjustments
+#### 1 *Bug Fix*
+* Syntax correction
