@@ -102,33 +102,22 @@ When selecting a data point in another chart, pareto data points were not highli
 ## v7.9.4.6 Certified
 ###### published 02/2023
 #### 3 Major Changes
-Add rectangular box behind bars, a bar and a statement to highlight the 80%, add driver highlights for the 20%<br />  
+Add rectangular box behind bars, a bar and a statement to highlight the 80%, add driver highlights for the 20%<br />
 Added scrolling<br/>
 Added Repeating Gradients
 #### 3 Minor Improvements 
 Added Transparency property, used PBI included sort options for forced sort, improved tooltips to display text<br />
 Added Click, Mouse Hover In and Out to Values to compensate for almost no data context menu<br />
 Bar Coloring default changed to “Each” from one solid color
-#### 0 Maintenance Adjustments
+#### 2 Maintenance Adjustments
+Added context menu on right click<br />
+Prevented the adding of bad data
 #### 2 Bug Fixes
 Make the spine thinner on Category X to show almost no data<br />
 Right Axis running off viewable page
 
-###### Pareto by sio2Graphs 7.9.0.6
-* Had to add more testing instructions
-###### Pareto by sio2Graphs 7.9.1.6
-* Rejected because field in Values well was moving to Tooltips well when moving between previous version and this version.
-* When moving between visuals fields switching between "Values" and "Tooltips" wells
-###### Pareto by sio2Graphs 7.9.2.6
-* Rejected because there was no right click context menu. I had taken this out, mistakenly, because I thought this was associated to hover tooltips.  This was sloppy.
-###### Pareto by sio2Graphs 7.9.3.6
-* Prevented the adding of bad data as it causes errors in the webservice on addition to Values
-* Rejected because adding bad data was causing errors in the webservice.
-
-
-
 ## v4.6.3.5 Certified
-Published 12/04/2022 12th offer
+###### Published 12/04/2022 12th offer
 
 Pareto 4.6.0.5 (12th offered 11/01/2022) 
 		1 Major Improvement
