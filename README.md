@@ -103,10 +103,10 @@ When selecting a data point in another chart, pareto data points were not highli
 ###### published 02/2023
 #### 3 Major Changes
 Add rectangular box behind bars, a bar and a statement to highlight the 80%, add driver highlights for the 20%<br />  
-Added scrolling<br/>  
+Added scrolling<br/>
 Added Repeating Gradients<br/>
 #### 3 Minor Improvements 
-Added Transparency property, used PBI included sort options for forced sort, improved tooltips to display text<br />  
+Added Transparency property, used PBI included sort options for forced sort, improved tooltips to display text<br />
 Added Click, Mouse Hover In and Out to Values to compensate for almost no data context menu<br />
 Bar Coloring default changed to “Each” from one solid color<br />
 #### 0 Maintenance Adjustments  
