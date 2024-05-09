@@ -109,7 +109,7 @@ Added Repeating Gradients
 Added Transparency property, used PBI included sort options for forced sort, improved tooltips to display text<br />
 Added Click, Mouse Hover In and Out to Values to compensate for almost no data context menu<br />
 Bar Coloring default changed to “Each” from one solid color
-#### 2 Maintenance Adjustments
+#### 4 Maintenance Adjustments
 Added context menu on right click<br />
 Prevented the adding of bad data
 #### 2 Bug Fixes
@@ -136,76 +136,48 @@ Added “rendering” events
 #### 1 Bug Fix
 Fixed tooltips   
 
-## Pareto by sio2Graphs 3.5.0.2
-Published 09/26/2022 9th offer
-
-**Pareto by sio2Graphs 3.2.0.2 (9th offered 8/07/2022 – Never Published)**  
-	*2 Minor Improvements*  
-		* Added certification  
-		* Added Landing Page    
-	*2 bug fixes*  
-  		* Fixed tooltips not showing full count and property descriptions  
-  		* Remove horizontal scrollbar and addressed negative values
+## v3.5.0.2
+###### Published 09/2022
+#### 0 Major Changes
+#### 8 Minor Improvements
+Added certification<br />
+Added Landing Page<br />
+Opened up categories, no longer limited to 10.  Looks poor when there are too many categories.<br />
+Changed arc to curve at percent of category<br />
+Added numeric tooltips<br />  
+Added Drill-through<br /> 
+Added label rotation<br />  
+Updated Landing page
+#### 0 Maintenance Adjustments
+#### 2 Bug Fixes
+Fixed tooltips not showing full count and property descriptions<br />
+Remove horizontal scrollbar and addressed negative values
+Fixed conditional formatting
 			
-**Pareto by sio2Graphs 3.5.0.2 (9th offered 9/26/2022)**  
-	*4 Minor Improvements*
-		* Added numeric tooltips  
-		* Added Drill-through  
-		* Added label rotation  
-		* Updated Landing page  
-	*2 Improvements*  
-		* Opened up categories, no longer limited to 10.  Looks poor when there are too many categories.  
-		* Changed arc to curve at percent of category  			
-	*2 bug fixes*  
-		* Fixed conditional formatting  
-    *Addressed negative values*  
-	*In Addition*  
-		* Improved the display for path and line of the axes  
-		* Added and enhanced properties  
-		* Streamlined the backend
+## v3.1.1.0
+###### Published 06/2022
+#### 0 Major Changes
+#### 1 Minor Improvement
+I added conditional formatting
+#### 0 Maintenance Adjustments
+#### 0 Bug Fixes
 
-  # pareto3.1.1.0
-Published 06/16/2022 8th offer
+## v3.0.0.0
+###### Published 2/2022
+###### Multiple Improvements and Enhancements in user customization
+#### 2 Major Changes
+Opened up categories, no longer limited to 10
+Changed arc to curve at percent of category
+#### 1 Minor Improvement
+Added Landing Page
+Axis manipulation
+Drilldown
+#### 0 Maintenance Adjustments
+#### 1 Bug Fix
+Fixed pointer errors  
 
-Pareto 3.1.1.0 (8th offered 6/16/2022)
-		1 Minor Improvement
-			I added conditional formatting
-		In Addition
-			Added some more properties
-
-## Pareto by sio2Graphs 3.0.0.0
-Published 2/28/2022 7th offer
-
-**Pareto by sio2Graphs 1.11.9 (never published)**  
-	*1 Improvement*  
-	*Added Landing Page  
-	*0 bug fixes*  
-**Pareto by sio2Graphs 2.0.0 (major upgrade; never published)**  
-	*4 Improvements*  
-	*Changed the platform to allow communication to my website   
-	*Communication will validate a user who has purchased a microservice  
-	*A microservice will be the purchase of advanced functions on 1 visual  
-	*Added advanced functions:  
-			*Drilldown
-			*Axis manipulation
-			
-**Pareto by sio2Graphs 3.0.0.0**  
-published 2/28/2022 7th offer   
-	*2 Improvements*  
-		*Opened up categories, no longer limited to 10.  Looks poor when there are too many categories.  
-		*Changed arc to curve at percent of category  			
-	*1 bug fix*  
-		*Fixed pointer errors  
-	*In Addition*  
-		*Added 4th digit to version  
-		*Brought forward Drilldown and Axis manipulation from Pareto 2.0.0  
-		*Multiple Improvements and Enhancements in user customization  
-
-## Pareto by sio2Graphs 1.10.9
-Published 12/2/2020 6th offer
-
-**Features**  
-  * to be determined
+## v1.10.9
+###### Published 12/2020
 
 **Version Changes**  
 *2 bug fixes*  
@@ -216,7 +188,7 @@ Published 12/2/2020 6th offer
   * Added Context Menu
 
 ## Pareto by sio2Graphs 1.9.7
-Published 11/20/2020 5th offer
+###### Published 11/20/2020 5th offer
 
 **Version Changes**  
 *3 bug fixes*  
@@ -251,7 +223,7 @@ Submitted with standard notes and no errors
   * Fixed value when maximum value is at the top of the left axis
 
 # Pareto by sio2Graphs 1.6.2
-Published 4/20/2020 3rd offer
+###### Published 4/20/2020 3rd offer
 
 **Version Changes**
 
@@ -266,7 +238,8 @@ Published 4/20/2020 3rd offer
 ## Pareto by sio2Graphs 1.0.0 
 This offer submitted on 12/31/2019 did not pass certification and was never published.
 
-## Pareto by sio2Graphs 1.3.1 - 1st offer published on 02/27/2020
+## Pareto by sio2Graphs 1.3.1
+###### Published 2/2020
 
 **Version Changes**
 
