@@ -166,11 +166,11 @@ I added conditional formatting
 ###### Published 2/2022
 ###### Multiple Improvements and Enhancements in user customization
 #### 2 Major Changes
-Opened up categories, no longer limited to 10
+Opened up categories, no longer limited to 10<br />
 Changed arc to curve at percent of category
 #### 1 Minor Improvement
-Added Landing Page
-Axis manipulation
+Added Landing Page<br />
+Axis manipulation<br />
 Drilldown
 #### 0 Maintenance Adjustments
 #### 1 Bug Fix
@@ -192,14 +192,14 @@ Fixed pointer errors
 
 **Version Changes**  
 *3 bug fixes*  
-  * Corrected message syntax to users
-  * Deleted unused variables and code blocks
+  * Corrected message syntax to users<br />
+  * Deleted unused variables and code blocks<br />
   * In the case of “Outside Placement”, category text is no longer suppressed
   
 *1 Improvement*  
   * Added Text Sizing
-	  * Arc Text	
-	  * Category Text	
+	  * Arc Text<br />	
+	  * Category Text<br />	
 	  * Value Text
 
 ## v1.8.4
@@ -210,13 +210,13 @@ Submitted with standard notes and no errors
 0 Major Changes
 #### 2 Minor Improvements
 * Added formatting
-	* Axis
-	* Category Text		
-	* Value Text
-	* Value Multiple and Decimal
-	* Arc Text
-	* Arc Line
-	* Currency Support
+	* Axis<br />
+	* Category Text<br />		
+	* Value Text<br />
+	* Value Multiple and Decimal<br />
+	* Arc Text<br />
+	* Arc Line<br />
+	* Currency Support<br />
   * Added Dark Background Support
 #### 2 Bug Fixes
 * Fixed category labels
@@ -234,9 +234,6 @@ Submitted with standard notes and no errors
   * Changed font stroke
   * Changed font
   * Added gradient coloring
-
-## Pareto by sio2Graphs 1.0.0 
-This offer submitted on 12/31/2019 did not pass certification and was never published.
 
 ## Pareto by sio2Graphs 1.3.1
 ###### Published 2/2020
