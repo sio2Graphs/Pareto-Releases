@@ -112,10 +112,12 @@ Added Repeating Gradients<br/>
 Added Transparency property, used PBI included sort options for forced sort, improved tooltips to display text<br/>  
 Added Click, Mouse Hover In and Out to Values to compensate for almost no data context menu<br/>
 Bar Coloring default changed to “Each” from one solid color<br/>
+
+0 Maintenance Adjustments
   
-**2 Bug Fixes**  
-* Make the spine thinner on Category X to show almost no data
-* Right Axis running off viewable page
+#### 2 Bug Fixes  
+Make the spine thinner on Category X to show almost no data<br/>
+Right Axis running off viewable page<br/>
 
 **4 Rejection Fixes**
 ###### Pareto by sio2Graphs 7.9.0.6
