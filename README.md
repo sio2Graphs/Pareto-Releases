@@ -227,8 +227,8 @@ Submitted with standard notes and no errors
 #### 0 Major Changes
 #### 3 Minor Improvements
 * Changed font stroke
-  * Changed font
-  * Added gradient coloring
+* Changed font
+* Added gradient coloring
 #### 0 Maintenance Adjustments
 #### 1 Bug Fix
 * Syntax correction.  style.less font setting was commented out.
