@@ -178,29 +178,27 @@ Fixed pointer errors
 
 ## v1.10.9
 ###### Published 12/2020
-
-**Version Changes**  
-*2 bug fixes*  
-  * Deleted unused code
-  * Fixed default for Value Category Placement was 3 changed it to 4
+#### 0 Major Changes
+#### 1 Minor Improvement
+* Added Context Menu
+#### 0 Maintenance Adjustments
+#### 2 Bug Fixes
+* Deleted unused code
+* Fixed default for Value Category Placement was 3 changed it to 4
   
-*1 Improvement*  
-  * Added Context Menu
-
 ## v1.9.7
 ###### Published 11/2020
-
-**Version Changes**  
-*3 bug fixes*  
-  * Corrected message syntax to users<br />
-  * Deleted unused variables and code blocks<br />
-  * In the case of “Outside Placement”, category text is no longer suppressed
-  
-*1 Improvement*  
-  * Added Text Sizing
-	  * Arc Text<br />	
-	  * Category Text<br />	
-	  * Value Text
+#### 0 Major Changes
+#### 1 Minor Improvement
+* Added Text Sizing
+	* Arc Text<br />	
+	* Category Text<br />	
+	* Value Text
+#### 0 Maintenance Adjustments
+#### 3 Bug Fixes
+* Corrected message syntax to users<br />
+* Deleted unused variables and code blocks<br />
+* In the case of “Outside Placement”, category text is no longer suppressed
 
 ## v1.8.4
 ###### published 6/2020
