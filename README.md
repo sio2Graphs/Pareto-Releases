@@ -203,12 +203,9 @@ Fixed pointer errors
 	  * Value Text
 
 ## v1.8.4
-###### published 6/24/2020 4th offer  
-Submitted with standard notes and no errors
-**Features**
-  * persist properties
-0 Major Changes
-#### 2 Minor Improvements
+###### published 6/2020
+#### 0 Major Changes
+#### 1 Minor Improvement
 * Added formatting
 	* Axis<br />
 	* Category Text<br />		
@@ -216,11 +213,12 @@ Submitted with standard notes and no errors
 	* Value Multiple and Decimal<br />
 	* Arc Text<br />
 	* Arc Line<br />
-	* Currency Support<br />
-  * Added Dark Background Support
+	* Currency Support
+ 	* Added Dark Background Support
+#### 0 Maintenance Adjustments
 #### 2 Bug Fixes
 * Fixed category labels
-  * Fixed value when maximum value is at the top of the left axis
+* Fixed value when maximum value is at the top of the left axis
 
 ## v1.6.2
 *Published 4/2020*
