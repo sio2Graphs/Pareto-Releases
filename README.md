@@ -223,17 +223,15 @@ Submitted with standard notes and no errors
   * Fixed value when maximum value is at the top of the left axis
 
 ## v1.6.2
-###### *Published 4/2020*
-
-**Version Changes**
-
-1. *bug fix*  
-  * Syntax correction.  style.less font setting was commented out.
-  
-3. *Improvements*
-  * Changed font stroke
+*Published 4/2020*
+#### 0 Major Changes
+#### 3 Minor Improvements
+* Changed font stroke
   * Changed font
   * Added gradient coloring
+#### 0 Maintenance Adjustments
+#### 1 Bug Fix
+* Syntax correction.  style.less font setting was commented out.
 
 ## v1.3.1
 *Published 2/2020*
