@@ -144,14 +144,14 @@ Added certification<br />
 Added Landing Page<br />
 Opened up categories, no longer limited to 10.  Looks poor when there are too many categories.<br />
 Changed arc to curve at percent of category<br />
-Added numeric tooltips<br />  
-Added Drill-through<br /> 
-Added label rotation<br />  
+Added numeric tooltips<br />
+Added Drill-through<br />
+Added label rotation<br />
 Updated Landing page
 #### 0 Maintenance Adjustments
 #### 2 Bug Fixes
 Fixed tooltips not showing full count and property descriptions<br />
-Remove horizontal scrollbar and addressed negative values
+Remove horizontal scrollbar and addressed negative values<br />
 Fixed conditional formatting
 			
 ## v3.1.1.0
